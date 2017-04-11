@@ -54,3 +54,127 @@ h1, h2, h3, h4, h5, h6
 {
     height: 64px;
 }
+//Main Menu
+
+.blete-main-menu.minified {
+    background-color: #8F8F8C;
+    padding: 0;
+    position: fixed;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.43);
+}
+
+.blete-main-menu {
+    background-color: #2C353D;
+    background-color: transparent;
+    border: 0 none;
+    border-radius: 0;
+    position: fixed;
+    width: 100%;
+    padding: 10px 0 20px !important;
+    margin-bottom: 0;
+    z-index: 10;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    -ms-transition: all .35s;
+    -o-transition: all .35s;
+    transition: all .35s;
+    -webkit-backface-visibility: hidden;
+}
+
+
+element.style {
+}
+
+.navbar-brand img {
+    display: inherit;
+}
+
+.navbar-brand>img {
+    display: block;
+}
+
+.logo {
+    width: 60px;
+}
+img {
+    max-width: 100%;
+}
+
+img {
+    vertical-align: middle;
+}
+
+
+element.style {
+    visibility: hidden;
+}
+
+.blete-section-header h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #313131;
+}
+
+span.blete-highlight-text {
+    color: #500000;
+}
+
+
+//Probably wont work for the icon parts
+
+.blete-blurb-round-icon .blete-icon {
+    -webkit-transition: all .35s linear;
+    -moz-transition: all .35s linear;
+    -ms-transition: all .35s linear;
+    -o-transition: all .35s linear;
+    transition: all .35s linear;
+}
+
+.blete-blurb-round-icon .blete-icon {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 30px;
+    border: 1px solid #dadada;
+    -webkit-border-radius: 50%;
+    moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translate(0, 0);
+}
+
+element.style {
+    visibility: visible;
+    animation-name: bounceInLeft;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.bounceInLeft {
+    -webkit-animation-name: bounceInLeft;
+    animation-name: bounceInLeft;
+}
+
+.fa-institution:before, .fa-bank:before, .fa-university:before {
+    content: "\f19c";
+}
+
+
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}

@@ -1,6 +1,8 @@
 class AccessController < ApplicationController
   
   layout "admin"
+
+  # commnetdnfijadfivb -->
   
   before_action :add_initial_user
   before_action :confirm_logged_in, :except => [:login, :attempt_login, :logout]
